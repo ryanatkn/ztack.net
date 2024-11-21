@@ -11,6 +11,7 @@
 			<Svg data={fuz_logo} size="var(--icon_size_xl)" />
 			<h1 class="mt_xl2">ztack</h1>
 		</header>
+		<blockquote>coming soon</blockquote>
 		<Card href="{base}/about" icon={''}>about</Card>
 	</section>
 </main>
