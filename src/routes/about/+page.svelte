@@ -4,8 +4,6 @@
 	import Library_Footer from '@ryanatkn/fuz/Library_Footer.svelte';
 	import Community_Links_Panel from '@ryanatkn/fuz/Community_Links_Panel.svelte';
 	import Breadcrumb from '@ryanatkn/fuz/Breadcrumb.svelte';
-	import Svg from '@ryanatkn/fuz/Svg.svelte';
-	import {fuz_logo} from '@ryanatkn/fuz/logos.js';
 
 	import {package_json, src_json} from '$routes/package.js';
 
@@ -17,12 +15,10 @@
 <main class="width_md">
 	<section class="box">
 		<header class="box pt_xl">
-			<Svg data={fuz_logo} size="var(--icon_size_xl)" />
-			<h1 class="mt_xl2">ztack</h1>
+			<div style:--size="var(--size_xl)">
+				<Breadcrumb>{package_json.glyph}</Breadcrumb>
+			</div>
 		</header>
-		<div style:--size="var(--size_xl)">
-			<Breadcrumb>{package_json.glyph}</Breadcrumb>
-		</div>
 	</section>
 	<section class="box w_100 mb_lg">
 		<div class="panel p_lg width_md">
