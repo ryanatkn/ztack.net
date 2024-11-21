@@ -1,5 +1,5 @@
 # [ztack.net](https://www.ztack.net/) 🌩
 
-> web stack
+> electric web stack
 
 coming soon

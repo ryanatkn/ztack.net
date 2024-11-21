@@ -6,7 +6,7 @@ import type {Src_Json} from '@ryanatkn/gro/src_json.js';
 export const package_json = {
 	name: 'ztack.net',
 	version: '0.0.1',
-	description: 'web stack',
+	description: 'electric web stack',
 	glyph: '🌩',
 	logo: 'logo.svg',
 	logo_alt: 'a friendly pixelated spider facing you',
