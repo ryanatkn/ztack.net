@@ -38,11 +38,6 @@
 		align-items: center;
 		margin: 0 auto;
 	}
-	h1 {
-		display: flex;
-		align-items: baseline;
-		text-align: center;
-	}
 	section {
 		margin-bottom: var(--space_xl5);
 	}
