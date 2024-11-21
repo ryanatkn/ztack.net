@@ -22,7 +22,7 @@
 </script>
 
 <svelte:head>
-	<title>@ryanatkn/ztack</title>
+	<title>@ryanatkn/ztack.net</title>
 </svelte:head>
 
 <svelte:body

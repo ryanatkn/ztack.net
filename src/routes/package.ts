@@ -12,7 +12,7 @@ export const package_json = {
 	logo_alt: 'a friendly pixelated spider facing you',
 	public: true,
 	homepage: 'https://www.ztack.net/',
-	repository: 'https://github.com/ryanatkn/ztack',
+	repository: 'https://github.com/ryanatkn/ztack.net',
 	scripts: {
 		start: 'gro dev',
 		dev: 'gro dev',
