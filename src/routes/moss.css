@@ -37,6 +37,9 @@ a.chip {
 	padding: 0;
 }
 
+.icon_size_xl2 {
+	font-size: var(--icon_size_xl2);
+}
 .inline {
 	display: inline;
 }
